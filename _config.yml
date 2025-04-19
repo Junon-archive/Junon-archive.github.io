@@ -12,6 +12,43 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
+
+# ────────────────────────────────────────
+title: "Genji Kim • Portfolio"
+description: "GPU Architecture Researcher / M.Sc. Student"
+url: "https://Junon-archive.github.io"
+baseurl: ""
+
+# Remote Theme (Minimal Mistakes v4.x 최신)
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# 상단 네비게이션 메뉴
+navigation:
+  - title: Home
+    url: /
+  - title: CV
+    url: /cv/
+  - title: Publications
+    url: /publications/
+  - title: Study Notes
+    url: /notes/
+
+# 모든 페이지에 좌측 사이드바 표시
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      sidebar:
+        nav: default
+# ────────────────────────────────────────
+
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
