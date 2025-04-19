@@ -5,6 +5,8 @@ main:
   - title: "External Link"
     url: https://google.com
     target: _blank
+  - title: "notes"
+    url: /notes/
 #- title: "About"
 #   url: https://mmistakes.github.io/minimal-mistakes/about/
 # - title: "Sample Posts"
