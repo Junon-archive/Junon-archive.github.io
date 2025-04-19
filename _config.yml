@@ -324,3 +324,14 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# ── 상단 네비게이션
+navigation:
+  - title: Home
+    url: /
+  - title: CV
+    url: /cv/
+  - title: Publications
+    url: /publications/
+  - title: Study Notes
+    url: /notes/
